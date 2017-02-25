@@ -1,0 +1,6 @@
+[package]
+name = "obosara"
+version = "0.1.0"
+authors = ["Alejandro Inestal <ainestal@gmail.com>"]
+
+[dependencies]
