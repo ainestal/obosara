@@ -1,2 +1,2 @@
 # obosara
-Rust lib that creates a common interface to connect to multiple bitcoin exchanges
+Helps you keeping track of your virtual currencies
