@@ -1,0 +1,8 @@
+[package]
+name = "obosara"
+version = "0.1.0"
+authors = ["Alejandro Inestal <ainestal@gmail.com>"]
+
+[dependencies]
+coinnect = "0.2.0"
+influent = "0.4"

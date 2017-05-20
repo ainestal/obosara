@@ -1,0 +1,19 @@
+version: '3'
+services:
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    links:
+      - influxdb
+
+  influxdb:
+    image: "influxdb:1.1"
+    ports:
+      - "8086:8086"
+
+  dealer:
+    build: "./dealer/"
+    restart: on-failure
+    links:
+      - influxdb
